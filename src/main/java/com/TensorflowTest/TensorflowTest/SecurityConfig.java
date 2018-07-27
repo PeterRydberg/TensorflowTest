@@ -21,10 +21,10 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter{
 
-    /*@Override
+    @Override
     public void configure(WebSecurity web) throws Exception {
-        web.ignoring().antMatchers(HttpMethod.GET, "");
-    }*/
+        web.ignoring().antMatchers("/resources/**", "/static/**", "/css/**", "/img/**", "/fonts/**");
+    }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -38,7 +38,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
                 .logout()
                     .permitAll()
                     .and()
-                .csrf().disable();
+                .authorizeRequests()
+                    .antMatchers("/", "/home", "/error", "/logout", "/logoutpage").permitAll()
+                    .anyRequest().authenticated();
     }
 
     @Override

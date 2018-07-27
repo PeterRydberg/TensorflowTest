@@ -1,5 +1,6 @@
-package com.TensorflowTest.TensorflowTest.Serving;
+package com.TensorflowTest.TensorflowTest.Serving.Service;
 
+import com.TensorflowTest.TensorflowTest.Serving.Iris;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

@@ -1,5 +1,7 @@
-package com.TensorflowTest.TensorflowTest.Serving;
+package com.TensorflowTest.TensorflowTest.Serving.Controller;
 
+import com.TensorflowTest.TensorflowTest.Serving.Iris;
+import com.TensorflowTest.TensorflowTest.Serving.Service.IrisClassifierService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

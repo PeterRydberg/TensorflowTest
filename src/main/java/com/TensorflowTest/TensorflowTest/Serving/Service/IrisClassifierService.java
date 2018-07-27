@@ -1,4 +1,6 @@
-package com.TensorflowTest.TensorflowTest.Serving;
+package com.TensorflowTest.TensorflowTest.Serving.Service;
+
+import com.TensorflowTest.TensorflowTest.Serving.Iris;
 
 import java.util.Map;
 
