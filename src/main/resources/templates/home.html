@@ -6,7 +6,36 @@
 </head>
 <body>
 
-    <h1>Home!</h1>
+    <h1>Iris identifier</h1>
+
+    <form action="/iris/classify/class" method="get">
+
+        Petal length:<br>
+        <input type="number" step="0.1" min="0" name="petalLength">
+        <br>
+
+        Petal width:<br>
+        <input type="number" step="0.1" min="0" name="petalWidth">
+        <br>
+
+        Sepal length:<br>
+        <input type="number" step="0.1" min="0" name="sepalLength">
+        <br>
+
+        Sepal width:<br>
+        <input type="number" step="0.1" min="0" name="sepalWidth">
+        <br>
+
+        Model type:<br>
+        <select name="modeltype">
+            <option value="tensorflow">Tensorflow</option>
+            <option value="onnx">ONNX</option>
+        </select>
+        <br>
+
+        <input type="submit" value="Submit">
+
+    </form>
 
 </body>
 </html>
