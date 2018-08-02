@@ -109,10 +109,9 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.5.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.security:spring-security-test:5.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.0.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.tensorflow:tensorflow:1.10.0-rc0" level="project" />
-    <orderEntry type="library" name="Maven: org.tensorflow:libtensorflow:1.10.0-rc0" level="project" />
-    <orderEntry type="library" name="Maven: org.tensorflow:libtensorflow_jni:1.10.0-rc0" level="project" />
-    <orderEntry type="library" name="Maven: org.tensorflow:libtensorflow_jni_gpu:1.10.0-rc0" level="project" />
+    <orderEntry type="library" name="Maven: org.tensorflow:tensorflow:1.10.0-rc1" level="project" />
+    <orderEntry type="library" name="Maven: org.tensorflow:libtensorflow:1.10.0-rc1" level="project" />
+    <orderEntry type="library" name="Maven: org.tensorflow:libtensorflow_jni:1.10.0-rc1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.google.code.gson:gson:2.8.5" level="project" />
   </component>
 </module>

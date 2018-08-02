@@ -71,11 +71,6 @@
 			<version>RELEASE</version>
 		</dependency>
 		<dependency>
-			<groupId>org.tensorflow</groupId>
-			<artifactId>libtensorflow_jni_gpu</artifactId>
-			<version>RELEASE</version>
-		</dependency>
-		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<scope>test</scope>
